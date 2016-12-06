@@ -1,0 +1,82 @@
+/*Autor:CHRV
+ *Data de criação: 06/10/2016
+ *Data de modificação: 06/10/2016
+ */
+
+ @font-face{
+ 	font-family: "roboto";
+     src: url(../fontes/Roboto.ttf);
+ }
+
+ @font-face{
+ 	font-family: "oswald";
+ 	src: url(../fontes/Oswald.ttf);
+ }
+
+/* inicio da página de login */
+
+/* body inicio */
+
+.login_backgound{
+  background-image: url(../imagens/login.jpg);
+}
+.login_div{
+  min-height: 921px;
+}
+.login_box{
+  position: absolute;
+  top: 30%;
+  right: 200px;
+  border: 1px solid #000;
+  background-color: #fff;
+  width: 450px;
+  height: 300px;
+  font-size: 30px;
+  font-family: "oswald";
+}
+
+.login_input{
+  border: 2px solid #000;
+  margin-left: -15%;
+  font-size: 20px;
+}
+
+.login_texto{
+  padding-left: 50px;
+  padding-top: 46px;
+}
+
+.login_entrar{
+  background-color: rgb(0, 186, 35);
+  padding: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 22px;
+  color: #fff;
+  border: 2px solid #000;
+  margin-top: 40px;
+  margin-left: 130px;
+  margin-right: 60px;
+  font-family: "roboto";
+}
+
+.logo{
+  height: 20%;
+  width: 100%;
+  padding-top: 15%;
+  margin-left: 25px;
+}
+
+/* body fim */
+
+.rodape{
+  border: 1px solid #000;
+  background-color: #444;
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+  max-height: 24px;
+  font-family: "roboto";
+}
+
+/* fim da página de login */

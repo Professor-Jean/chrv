@@ -1,0 +1,331 @@
+/*Autor:CHRV
+ *Data de criação: 25/08/2016
+ *Data de modificação: 06/10/2016
+ */
+
+ @font-face{
+ 	font-family: "roboto";
+     src: url(../fontes/Roboto.ttf);
+ }
+
+ @font-face{
+ 	font-family: "oswald";
+ 	src: url(../fontes/Oswald.ttf);
+ }
+
+.rodape{
+  border: 1px solid #000;
+  background-color: #444;
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+  max-height: 24px;
+  font-family: "roboto";
+}
+
+.limpa_float{
+  clear: both;
+  visibility: hidden;
+}
+
+/* início das páginas de admin */
+
+.adm_backgound{
+  background-image: url(../imagens/padrao.jpg);
+}
+
+header{
+  width: 100%;
+}
+
+.logo{
+  height: 100px;
+  width: 12%;
+  float: left;
+  margin-left: 25px;
+}
+
+.div_titulo{
+  font-size: 180%;
+  align: center;
+  background-color: #444;
+  color: #fff;
+  float: left;
+  padding-top: 30px;
+  width: 15%;
+  height: 67px;
+  border: 2px solid #000;
+  font-family: "oswald";
+}
+
+.div_icones{
+  font-size: 150%;
+  background-color: #444;
+  color: #fff;
+  float: left;
+  width: 10%;
+  padding-top: 35px;
+  text-align: center;
+  height: 62px;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+  border-top: 2px solid #000;
+}
+
+.icone{
+  color: #fff;
+  text-decoration: none;
+}
+
+.icone:hover{
+  color: rgb(229, 50, 44);
+  transition: 0.5s;
+}
+
+.icone_tabela{
+  color: #000;
+  cursor: pointer;
+}
+
+.erro{
+  color: rgb(229, 50, 44);
+}
+
+.confirmacao{
+  color: rgb(42, 200, 34);
+}
+
+
+.menu{
+  list-style:none;
+  border-bottom: 2px solid #000;
+  border-top: 2px solid #000;
+  float:left;
+  font-size: 110%;
+  background-color: #fff;
+  font-family: "roboto";
+  width: 42%;
+  padding-top: 3px;
+  height: 94px;
+}
+
+.menu_especial{
+  position:relative;
+  float:left;
+  padding-top: 35px;
+  width: 33.3%;
+  height: 64px;
+  text-align: center;
+}
+
+.menu_li{
+  position:relative;
+  float:left;
+  width: 100%;
+  padding: auto;
+  font-size: 100%;
+}
+
+.menu li a{
+  color:#333;
+  text-decoration:none;
+  display:block;
+  padding: 30px;
+}
+
+.menu li a:hover{
+  background:#333;
+  color:#fff;
+  -moz-box-shadow:0 3px 10px 0 #CCC;
+  -webkit-box-shadow:0 3px 10px 0 #ccc;
+  text-shadow:0px 0px 5px #fff;
+}
+
+.menu li  ul{
+  position:absolute;
+  top:94px;
+  left:0;
+  background-color:#fff;
+  display:none;
+}
+
+.menu li:hover ul, .menu li.over ul{
+  display:block;
+}
+
+.menu li ul li{
+  display:block;
+}
+
+.area_usuario{
+  font-size: 18px;
+  text-align: center;
+  background-color: #444;
+  float: left;
+  padding-top: 40px;
+  height: 57px;
+  width: 15%;
+  border: 2px solid #000;
+  font-family: "roboto";
+}
+
+.adm_sair{
+  font-size: 110%;
+  margin-left: 10px;
+  color: #fff;
+  float: right;
+  margin-right: 1%;
+}
+
+.adm_sair:hover{
+  color: rgb(229, 50, 44);
+  transition: 0.5s;
+}
+
+.div_global{
+  background-color: rgba(255, 255, 255, 0.9);
+  min-height: 796px;
+  width: 80%;
+  margin-left: 10%;
+  font-family: "roboto";
+}
+
+.div_float{
+  margin-top: 10%;
+  float: right;
+  width: 59%;
+}
+
+.ajustavel{
+  overflow-x: auto;
+}
+
+.mensagem{
+  width: auto;
+  height: auto;
+  background-color: #fff;
+  padding-top: 350px;
+  font-size: 70px;
+  text-align: center;
+  font-family: "roboto";
+}
+
+.mensagem_aviso{
+  background-color: #444;
+  text-align: center;
+  width: 50%;
+  margin-top: 16%;
+  margin-left: 25%;
+  font-size: 26px;
+  color: #fff;
+  padding: 2% 0% 2% 0%;
+  border: 4px solid #000;
+}
+
+.titulo_corpo{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 200%;
+  border-bottom: 2px solid #000;
+}
+
+.tabela_registro{
+  width: 50%;
+  margin-left: 31%;
+
+}
+
+.td_registro{
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+
+.input_registro{
+  width: 65%;
+}
+
+h2{
+  font-size: 130%;
+  font-weight: bold;
+}
+
+.botao_registro{
+  width: 30%;
+  margin-right: 6%;
+  margin-top: 2.5%;
+  background-color: rgb(42, 200, 34);
+  border: 1px solid rgb(10, 10, 10);
+  color: #fff;
+}
+
+.botao_limpar{
+  width: 30%;
+  margin-right: 6%;
+  background-color: rgb(229, 50, 44);
+  color: #fff;
+  border: 1px solid rgb(10, 10, 10);
+}
+
+.table_relatorio{
+  margin-left: 10%;
+  margin-top: 3%;
+  width: 80%;
+  text-align: left;
+  background-color: #fff;
+}
+
+.tabela_especial{
+  background-color:#cc3030;
+  border: 1px solid #ccc;
+  color: #fff;
+  font-size: 120%;
+  padding-left: 0.5%;
+}
+
+.table_relatorio, .td_relatorio {
+  border: 1px solid #ccc;
+  padding-left: 10px;
+  padding-top: 8px;
+  height: 20px;
+}
+
+.b_imprimir{
+  border: 2px solid #000;
+  background-color: #ccc;
+  float: right;
+  padding: 5px;
+  font-size: 110%;
+  margin-top: 5%;
+  margin-right: 1%;
+}
+
+.b_imprimir:hover{
+  background-color: #fff;
+  transition: 0.5s;
+}
+
+.tipos{
+  margin-top: 2%;
+  margin-left: 23%;
+  background-color: #ccc;
+  font-size: 130%;
+  border: 1px solid #000;
+}
+
+
+legend {
+  display: block;
+  -webkit-padding-start: 2px;
+  -webkit-padding-end: 2px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+}
+
+.campo_filtro{
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin-bottom: 3px;
+}
+/* fim das páginas de admin */

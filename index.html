@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BobSom Musical Center(index)</title>
+    <meta name="author" content="CHRV"/>
+		<meta name="description" content=" Web Software para controle de estoque da empresa BobSom Musical Center"/>
+		<meta name="keywords" content="Controle, Estoque, BobSom, Musical, Center"/>
+		<meta charset="utf-8"/>
+    <link href="leiaute/css/reset_css.css" rel="stylesheet" type="text/css" />
+    <link href="leiaute/css/frente_css.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body class="login_backgound">
+    <div class="login_div"><!-- div geral-->
+      <fieldset class="login_box">
+        <legend>Login</legend>
+        <form name="frmLogin" method="POST" action="seguranca/autenticacao/autenticacao_autenticacao.php">
+          <table>
+            <tr>
+              <td class="login_texto">Usuário: </td>
+              <td class="login_texto"><input type="text" name="txtusuario" maxlength="22" placeholder="adm" class="login_input" required></td>
+            </tr>
+            <tr>
+              <td class="login_texto">Senha: </td>
+              <td class="login_texto"><input type="password" name="pwdsenha" maxlength="32" placeholder="*********" class="login_input" required></td>
+            </tr>
+            <tr>
+              <td><img src="leiaute/imagens/logo.png" class="logo" /></td>
+					    <td><button name="btnsalvar" type="submit" class="login_entrar">Entrar</button></td>
+				    </tr>
+          </table>
+        </form>
+      </fieldset>
+    </div><!-- fim da div geral-->
+  </body>
+  <footer class="rodape">
+    <div>
+      <h3>BobSom, CNPJ</h3>
+    </div>
+  </footer>
+</html>
